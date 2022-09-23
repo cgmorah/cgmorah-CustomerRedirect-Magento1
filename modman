@@ -1,0 +1,3 @@
+app/etc/modules/GiovanniMora_CustomerRedirect.xml app/etc/modules/GiovanniMora_CustomerRedirect.xml
+app/code/community/GiovanniMora/CustomerRedirect/etc/config.xml app/code/community/GiovanniMora/CustomerRedirect/etc/config.xml
+app/code/community/GiovanniMora/CustomerRedirect/Model/Observer.php app/code/community/GiovanniMora/CustomerRedirect/Model/Observer.php

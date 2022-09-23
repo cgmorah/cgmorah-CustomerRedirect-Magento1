@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <GiovanniMora_CustomerRedirect>
+            <version>1.0.0</version>
+        </GiovanniMora_CustomerRedirect>
+    </modules>
+    <global>
+        <models>
+            <GiovanniMora_customerredirect>
+                <class>GiovanniMora_CustomerRedirect_Model</class>
+            </GiovanniMora_customerredirect>
+        </models>
+    </global>
+    <frontend>
+        <events>
+            <controller_action_predispatch_customer_account_login>
+                <observers>
+                    <GiovanniMora_customerredirect>
+                        <type>singleton</type>
+                        <class>GiovanniMora_customerredirect/observer</class>
+                        <method>setRedirectUrl</method>
+                    </GiovanniMora_customerredirect>
+                </observers>
+            </controller_action_predispatch_customer_account_login>
+        </events>
+    </frontend>
+</config>

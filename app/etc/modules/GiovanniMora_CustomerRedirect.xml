@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <GiovanniMora_CustomerRedirect>
+            <active>true</active>
+            <codePool>community</codePool>
+        </GiovanniMora_CustomerRedirect>
+    </modules>
+</config>
