@@ -1,7 +1,6 @@
 # Magento1-CustomerRedirect
-Este módulo ermite definir uma URL de sucesso após o login do usuário na lo, passando a URL de sucesso via parâmetro para o url de login.
-
+This module allows you to define a success URL after the user logs into it, passing the success URL through a parameter to the login URL.
 ## Instruções
-Após instalado, passe a url que desejada no parâmetro **redirectUrl**.
+Once installed, pass the url you want in the **redirectUrl** parameter.
 
 Ex: /customer/account/login/?redirectUrl=http://www.uol.com.br/
